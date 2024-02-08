@@ -20,10 +20,12 @@ git clone https://github.com/antonstrobe/MyHospital
 ```
 cd MyHospital
 ```
-4. Run `php spark serve` from your local repo directory.
-5. Start your MySQL server.
-6. Create a database named `dbmyhospital` in your phpmyadmin.
-7. Run database migrations and seeders using the following commands.
+4. Run ```
+php spark serve
+``` from your local repo directory.
+7. Start your MySQL server.
+8. Create a database named `dbmyhospital` in your phpmyadmin.
+9. Run database migrations and seeders using the following commands.
 
 ```
 php spark migrate -all
