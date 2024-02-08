@@ -21,6 +21,7 @@ cd C:/ospanel/modules/php/PHP_7.4
 extension  = pdo_mysql
 extension = intl
 ```
+RUN:
 ```
 php spark serve
 ```
