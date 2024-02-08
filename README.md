@@ -13,12 +13,15 @@ Designed by Clover 🍀
 ## Setup
 
 Local install
-1. Clone repo. ```git clone https://github.com/antonstrobe/MyHospital```
-2. ```cd MyHospital```
-3. Run `php spark serve` from your local repo directory.
-4. Start your MySQL server.
-5. Create a database named `dbmyhospital` in your phpmyadmin.
-6. Run database migrations and seeders using the following commands.
+1. Clone repo.
+```
+git clone https://github.com/antonstrobe/MyHospital
+```
+3. ```cd MyHospital```
+4. Run `php spark serve` from your local repo directory.
+5. Start your MySQL server.
+6. Create a database named `dbmyhospital` in your phpmyadmin.
+7. Run database migrations and seeders using the following commands.
 
 ```
 php spark migrate -all
