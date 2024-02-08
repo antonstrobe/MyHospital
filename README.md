@@ -17,7 +17,9 @@ Local install
 ```
 git clone https://github.com/antonstrobe/MyHospital
 ```
-3. ```cd MyHospital```
+```
+cd MyHospital
+```
 4. Run `php spark serve` from your local repo directory.
 5. Start your MySQL server.
 6. Create a database named `dbmyhospital` in your phpmyadmin.
