@@ -16,7 +16,9 @@ cd MyHospital
 ```
 cd C:/ospanel/modules/php/PHP_7.4
 ```
-
+```
+C:/OSPanel/userdata/config
+```
 ```
 extension  = pdo_mysql
 extension = intl
